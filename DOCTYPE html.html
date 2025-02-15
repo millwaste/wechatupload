@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>OSS直传示例</title>
+    <meta charset="UTF-8">
+    <style>
+        .container { max-width: 600px; margin: 20px auto; padding: 20px; }
+        #uploader { border: 2px dashed #ccc; padding: 20px; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>文件上传</h1>
+        <div id="uploader">
+            <p>拖拽文件到此或点击选择文件（≤50MB）</p>
+            <input type="file" id="file-input">
+        </div>
+        <div id="progress"></div>
+    </div>
+    <!-- 引入OSS SDK -->
+    <script src="https://gosspublic.alicdn.com/aliyun-oss-sdk-6.17.1.min.js"></script>
+    <script src="upload.js"></script>
+</body>
+</html>
