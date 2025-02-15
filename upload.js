@@ -18,7 +18,7 @@ document.getElementById('file-input').addEventListener('change', async (e) => {
   }
 
   try {
-    const result = await client.put(`uploads/${file.name}`, file);
+    const result = await client.put(`{file.name}`, file);
     alert(`上传成功！文件URL：${result.url}`);
   } catch (err) {
     console.error('上传失败：', err);
