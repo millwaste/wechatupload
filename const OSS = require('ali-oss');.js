@@ -2,8 +2,8 @@ const OSS = require('ali-oss');
 
 const client = new OSS({
   region: 'oss-cn-hangzhou',
-  accessKeyId: 'LTAI5t********',     // 替换为AccessKey ID
-  accessKeySecret: 'Ciq********',    // 替换为AccessKey Secret
+  accessKeyId: 'LTAI5tBGSAcVEMzMCT4iKUAQ',     // 替换为AccessKey ID
+  accessKeySecret: 'jhh6U5fZ2xPyLn07YXqxvrsvA7FDqb',    // 替换为AccessKey Secret
   bucket: 'your-bucket-name'
 });
 
