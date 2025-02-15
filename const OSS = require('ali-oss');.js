@@ -1,7 +1,7 @@
 const OSS = require('ali-oss');
 
 const client = new OSS({
-  region: 'oss-cn-shanghai',
+  region: 'oss-cn-shanghai2',
   accessKeyId: 'LTAI5tBGSAcVEMzMCT4iKUAQ',     // 替换为AccessKey ID
   accessKeySecret: 'jhh6U5fZ2xPyLn07YXqxvrsvA7FDqb',    // 替换为AccessKey Secret
   bucket: 'wechatphoto-upload'
